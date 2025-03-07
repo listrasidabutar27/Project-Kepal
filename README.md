@@ -1,1 +1,5 @@
 # Project-Kepal
+Analisis Penggunaan Kriptografi untuk Meningkatkan Keamanan Data pada E-Commerce Menggunakan Algoritma AES
+
+Keamanan data menjadi aspek krusial dalam e-commerce, mengingat tingginya risiko serangan siber yang mengincar informasi pribadi dan finansial pengguna. Penelitian ini menganalisis penerapan algoritma Advanced Encryption Standard (AES) sebagai solusi untuk meningkatkan perlindungan data pada aplikasi e-commerce. Algoritma AES dikenal aman, cepat, dan efisien, menggunakan panjang kunci hingga 256-bit untuk mengenkripsi data sehingga sulit dipecahkan oleh pihak tidak berwenang. Proses pengujian menunjukkan bahwa waktu enkripsi dan dekripsi konsisten pada berbagai ukuran file, namun terdapat overhead pada ukuran file hasil enkripsi yang dapat mempengaruhi efisiensi penyimpanan. Dengan menggunakan pendekatan enkripsi berbasis AES, penelitian ini berhasil menunjukkan efektivitas algoritma dalam menjaga kerahasiaan data pengguna, meskipun tantangan terkait kompatibilitas sistem dan efisiensi penyimpanan masih memerlukan perhatian. Hasil ini mengindikasikan bahwa AES merupakan pilihan unggul dalam pengembangan sistem keamanan data e-commerce.
+
