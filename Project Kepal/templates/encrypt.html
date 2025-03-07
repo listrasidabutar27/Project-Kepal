@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-primary">Encrypt Your File</div>
+            <div class="card-body">
+                <p class="text-muted">Unggah berkas Anda di bawah ini untuk mengenkripsinya dengan aman.</p>
+                <form action="/encrypt" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="fileEncrypt" class="form-label">Choose File</label>
+                        <input type="file" name="file" id="fileEncrypt" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">🔐 Encrypt</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

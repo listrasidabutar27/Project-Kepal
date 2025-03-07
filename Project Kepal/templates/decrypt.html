@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header bg-success">Decrypt Your File</div>
+            <div class="card-body">
+                <p class="text-muted">Unggah berkas terenkripsi Anda di bawah ini untuk mengambil konten aslinya.</p>
+                <form action="/decrypt" method="post" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="fileDecrypt" class="form-label">Choose Encrypted File</label>
+                        <input type="file" name="file" id="fileDecrypt" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-success">🔓 Decrypt</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

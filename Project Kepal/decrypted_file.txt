@@ -1,0 +1,68 @@
+Steganografi sudah digunakan sejak dahulu kala
+sekitar 2500 tahun yang lalu untuk kepentingan politik,
+militer, diplomatik, serta untuk kepentingan pribadi [5].
+Sekarang Steganografi sudah terdiri atas beberapa bagian
+dimana penyisipannya sudah dapat dilakukan pada
+gambar, teks, audio, video, bahkan jaringan. Steganografi
+adalah cara komunikasi rahasia dengan menyembunyikan
+pesan pada objek yang tidak terlihat mencurigakan atau
+berbahaya.
+Tujuan dari steganografi adalah untuk merahasiakan atau
+menyembunyikan keberadaan sebuah teks penting yang
+bahkan yang bersifat rahasia. Maka akan membutuhkan
+dua aspek yaitu media penyimpan dan informasi rahasia
+yang akan disembunyikan [6]. Pada pengimplementasian
+kebanyakan teks tersebut akan disembunyikan dengan
+hanya terjadi sedikit perubahan sehingga tidak akan
+menimbulkan kecurigaan para penyerang. Komponen
+dari sistem penyisipan ini yaitu terdapat komponen untuk
+menuliskan pesan yang dipakai untuk menempatkan
+penulisan pesan rahasia [7]. Steganografi melibatkan dua
+buah proses utama yaitu penyisipan (embedding) dan
+penguraian (extraction) [8]. Proses embedding adalah
+langkah menyisipkan pesan ke dalam media cover,
+sedangkan extraction adalah proses untuk mengambil
+kembali pesan dari media stego.
+Pada penelitian ini penyisipan pesan dalam steganografi dapat
+menggunakan teknik Least Significant Bit (LSB). Dimana
+teknik ini menggunakan bit bit terkecil dalam representasi
+digital pada setiap komponen warna (Red, Green, dan Blue)
+dari piksel gambar dengan data biner dari pesan yang akan
+disisipkan. Proses ini dilakukan secara berurutan sehingga
+pesan tersembunyi dapat disimpan secara efisien tanpa
+mengurangi kualitas visual dari gambar tersebut. Proses
+penyisipan juga membutuhkan sebuah perhitungan
+menggunakan metode dan harus memiliki jenis objek yang
+akan dijadikan wadah penyisipan data teks [11] seperti
+gambar digital.
+Hasil dari implementasi ini menunjukkan bahwa metode LSB
+mampu menyisipkan pesan teks dengan tingkat keberhasilan
+yang tinggi. Gambar hasil steganografi hampir tidak dapat
+dibedakan dari gambar asli, sehingga membuat teknik ini
+sangat efektif untuk menjaga kerahasiaan pesan. Selain itu,
+pesan yang disisipkan juga dapat diekstraksi kembali selama
+gambar tidak mengalami proses modifikasi. pada penelitian
+ini juga terdapat beberapa metode pengukuran kualitas
+gambar.
+Adapun pengujian yang dilakukan untuk mengukur kualitas
+gambar adalah menggunakan metode PSNR (Peak Signal to
+Noise Ratio). Dimana PSNR adalah ukuran perbandingan
+antara nilai piksel cover image dengan nilai piksel pada citra
+stego yang dihasilkan. pengukuran dilakukan dengan rumus
+sebagai berikut [3]:
+Untuk semakin meningkatkan efektivitas dan keamanan
+metode Least Significant Bit (LSB) disarankan untuk tidak
+menggunakan format lossy seperti JPEG karena jika
+dilakukan pengurangan ukuran file maka dapat merusak
+pesan tersembunyi yang telah disisipkan. Sebaiknya
+menggunakan format gambar yang bersifat lossless
+seperti PNG karena tidak akan menghilangkan informasi
+apabila dilakukan kompresi terhadap gambar.
+Pengembangan lebih lanjut diharapkan dapat membuat
+metode LSB yang lebih kompleks dengan
+mengkombinasikannya dengan algoritma atau metode
+lain sehingga dapat meningkatkan daya tahan apabila
+terjadis erangan saat melakukan kompresi. Sehingga
+metode LSB dapat dimanfaatkan untuk berbagai aplikasi
+yang lebih nyata seperti penyisipan metadata dan
+melindungi hak cipta konten visual.

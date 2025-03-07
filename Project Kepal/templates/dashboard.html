@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2>Welcome to File Encryption & Decryption</h2>
+        <p class="text-muted">Cara yang aman dan efisien untuk melindungi berkas Anda. Enkripsi dan dekripsi berkas dengan mudah.</p>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <a href="/encrypt" class="btn btn-primary btn-lg">🔐 Encrypt File</a>
+            </div>
+            <div class="col-md-6">
+                <a href="/decrypt" class="btn btn-success btn-lg">🔓 Decrypt File</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
